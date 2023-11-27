@@ -1,24 +1,41 @@
-.nav {
-    position: sticky;
-    top: 0;
-    background-color: #212529;
-    animation: nav linear both;
+.logo {
+  width: 100px;
+  height: 100px;
+}
+
+#header {
+    animation: backdrop-blur both ease-in-out;
     animation-timeline: scroll(root);
-    animation-range: 3% 30%;
+    animation-range: 10px 15px;
 }
 
-.nav-link {
-    height: 110px;
-    padding: 30px;
+#header > span {
+  animation: font both ease-in-out;
+  animation-timeline: scroll(root);
+  animation-range: 10px 200px;
 }
 
-.nav-link:hover{
-    background-color: #333;
+#header > img {
+    animation: scale both ease-in-out;
+    animation-timeline: scroll(root);
+    animation-range: 10px 200px;
 }
 
-@keyframes nav {
-    to {
-        backdrop-filter: opacity(20%);
-        opacity: .8;
+@keyframes backdrop-blur {
+    to{
+        backdrop-filter: blur(10px);
+    }
+}
+
+@keyframes font {
+  to {
+    font-size: 2.5rem;
+  }
+}
+
+@keyframes scale {
+    to{
+        width: 50px;
+        height: 50px;
     }
 }
