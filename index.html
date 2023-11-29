@@ -1,200 +1,233 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
-    <title>Julia Jiménez Fotografía</title>
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
-      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
-      crossorigin="anonymous"
-    />
-    <link rel="stylesheet" href="styles.css" />
-  </head>
-  <body class="bg-dark">
-    <nav class="navbar navbar-expand-lg sticky-top">
-      <div
-        class="d-flex justify-content-space-between align-items-center w-100"
-      >
-        <div class="container col-7 d-flex justify-content-center align-items-center gap-5 my-2">
-          <img src="images/logo.svg" class="logo" />
-          <span class="text-light d-flex align-items-center"
-            >JULIA JIMÉNEZ FOTOGRAFÍA</span
-          >
-        </div>
-        <div class="container col-5">
-          <div class="mx-5" id="navbarNavDropdown">
-            <ul class="navbar-nav d-flex justify-content-center align-items-center gap-5">
-              <div class="nav-item"><a href="" class="nav-link fs-4 text-light">SOBRE MI</a></div>
-              <div class="nav-item"><a href="" class="nav-link fs-4 text-light">CONTACTO</a></div>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </nav>
 
-    <div class="">
-      <div id="carouselExample" class="carousel slide">
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img src="images/inicio1.jpg" class="d-block w-100" alt="..." />
-          </div>
-          <div class="carousel-item">
-            <img src="images/inicio2.jpg" class="d-block w-100" alt="..." />
-          </div>
-          <div class="carousel-item">
-            <img src="images/inicio3.jpg" class="d-block w-100" alt="..." />
-          </div>
-        </div>
-        <button
-          class="carousel-control-prev"
-          type="button"
-          data-bs-target="#carouselExample"
-          data-bs-slide="prev"
-        >
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </button>
-        <button
-          class="carousel-control-next"
-          type="button"
-          data-bs-target="#carouselExample"
-          data-bs-slide="next"
-        >
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
-      </div>
-    </div>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+  <title>Julia Jiménez Fotografía</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+    integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
 
-    <div class="container my-5">
-      <p class="display-1 text-light text-center mb-5">GALERÍA</p>
-      <div class="columns">
-        <!-- Imágenes utilizadas desde http://unsplash.com -->
-
-        <img
-          src="https://images.unsplash.com/photo-1700448170710-df7b4dcd756e?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwzfHx8ZW58MHx8fHx8"
-          class="w-100 rounded"
-          alt="..."
-          loading="lazy"
-        />
-        <img
-          src="https://images.unsplash.com/photo-1682686581362-796145f0e123?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxlZGl0b3JpYWwtZmVlZHwxMXx8fGVufDB8fHx8fA%3D%3D"
-          class="w-100 rounded"
-          alt="..."
-          loading="lazy"
-        />
-        <img
-          src="https://images.unsplash.com/photo-1700510558182-5dce0b752e6f?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw4fHx8ZW58MHx8fHx8"
-          class="w-100 rounded"
-          alt="..."
-          loading="lazy"
-        />
-        <img
-          src="https://plus.unsplash.com/premium_photo-1700319259405-f080192b3e73?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxN3x8fGVufDB8fHx8fA%3D%3D"
-          class="w-100 rounded"
-          alt="..."
-          loading="lazy"
-        />
-        <img
-          src="https://plus.unsplash.com/premium_photo-1700984292442-87b80caca924?q=80&w=2072&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-          class="w-100 rounded"
-          alt="..."
-          loading="lazy"
-        />
-        <img
-          src="https://images.unsplash.com/photo-1700475477254-5986ff2f1dc3?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-          class="w-100 rounded"
-          alt="..."
-          loading="lazy"
-        />
-        <img
-          src="https://images.unsplash.com/photo-1700880326547-3558d336f0c9?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw4M3x8fGVufDB8fHx8fA%3D%3D"
-          alt=""
-          class="w-100 rounded"
-          loading="lazy"
-        />
-        <img
-          src="https://images.unsplash.com/photo-1700769025506-6c3dcb9ec9b7?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxMDR8fHxlbnwwfHx8fHw%3D"
-          class="w-100 rounded"
-          alt=""
-          loading="lazy"
-        />
-        <img
-          src="https://images.unsplash.com/photo-1682687220866-c856f566f1bd?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-          class="w-100 rounded"
-          alt=""
-          loading="lazy"
-        />
-      </div>
-    </div>
-
-    <div class="container my-5">
-      <p class="display-1 text-light text-center mb-5">FOTÓGRAFA PREMIADA</p>
-      <div class="row">
-        <div class="col-12 w-75 d-block m-auto bloque">
-          <div class="card text-bg-dark border-light my-5">
-            <img
-              src="images/premio1.jpg"
-              class="card-img-top w-100"
-              alt="..."
-              loading="lazy"
-            />
-
-            <div class="card-body">
-              <p class="card-text fs-2 p-4 text-center">
-                Concurso nacional de fotografía sobre parques Nacionales
-                españoles 2020.
-              </p>
-            </div>
-          </div>
-        </div>
-        <div class="col-12 w-75 d-block m-auto bloque">
-          <div class="card text-bg-dark border-light my-5">
-            <img
-              src="images/premio2.jpg"
-              class="card-img-top w-100"
-              alt="..."
-              loading="lazy"
-            />
-
-            <div class="card-body">
-              <p class="card-text fs-2 p-4 text-center">
-                II Concurso Internacional de Fotografía de la Naturaleza.
-              </p>
-            </div>
-          </div>
-        </div>
-        <div class="col-12 w-75 d-block m-auto bloque">
-          <div class="card text-bg-dark border-light my-5">
-            <img
-              src="images/premio3.jpg"
-              class="card-img-top w-100"
-              alt="..."
-              loading="lazy"
-            />
-
-            <div class="card-body">
-              <p class="card-text fs-2 p-4 text-center">
-                Concurso “La Naturaleza y tú”, Andalucía 2018.
-              </p>
-            </div>
-          </div>
+<body class="bg-light">
+  <nav class="navbar navbar-expand-lg sticky-top">
+    <div class="d-flex justify-content-space-between align-items-center w-100">
+      <a href="./index.html"
+        class="nav-link container col-7 d-flex justify-content-center align-items-center gap-5 my-2">
+        <!-- Imágen generada con IA a través de Bing Chat -->
+        <img src="./images/logo.svg" class="logo" />
+        <span class="text-primary d-flex align-items-center">JULIA JIMÉNEZ FOTOGRAFÍA</span>
+      </a>
+      <div class="container col-5">
+        <div class="mx-5" id="navbarNavDropdown">
+          <ul class="navbar-nav d-flex justify-content-center align-items-center gap-5">
+            <div class="nav-item"><a href="./sections/premios.html" class="nav-link text-primary">PREMIOS</a></div>
+            <div class="nav-item"><a href="./sections/about_me.html" class="nav-link text-primary">SOBRE MI</a></div>
+            <div class="nav-item"><a href="./sections/contacto.html" class="nav-link text-primary">CONTACTO</a></div>
+          </ul>
         </div>
       </div>
     </div>
+  </nav>
 
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
-      integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
-      crossorigin="anonymous"
-    ></script>
-  </body>
+  <div class="">
+    <div id="carouselExample" class="carousel slide">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="images/inicio1.jpg" class="d-block w-100" alt="..." />
+        </div>
+        <div class="carousel-item">
+          <img src="images/inicio2.jpg" class="d-block w-100" alt="..." />
+        </div>
+        <div class="carousel-item">
+          <img src="images/inicio3.jpg" class="d-block w-100" alt="..." />
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </div>
+
+  <div class="container my-5">
+    <p class="display-1 text-primary text-center mb-5">GALERÍA</p>
+    <ul class="nav nav-justified mb-3" id="ex3" role="tablist">
+      <li class="nav-item" role="presentation">
+        <a class="nav-link active" id="ex3-tab-1" data-bs-toggle="tab" href="#ex3-tabs-1" role="tab"
+          aria-controls="ex3-tabs-1" aria-selected="true">Paisajes</a>
+      </li>
+      <li class="nav-item" role="presentation">
+        <a class="nav-link" id="ex3-tab-2" data-bs-toggle="tab" href="#ex3-tabs-2" role="tab" aria-controls="ex3-tabs-2"
+          aria-selected="false">Urbano</a>
+      </li>
+      <li class="nav-item" role="presentation">
+        <a class="nav-link" id="ex3-tab-3" data-bs-toggle="tab" href="#ex3-tabs-3" role="tab" aria-controls="ex3-tabs-3"
+          aria-selected="false">Retratos</a>
+      </li>
+    </ul>
+    <div class="tab-content p-4" id="ex2-content">
+      <div class="tab-pane fade show active" id="ex3-tabs-1" role="tabpanel" aria-labelledby="ex3-tab-1">
+        <div class="columns">
+          <!-- Imágenes utilizadas desde http://unsplash.com -->
+
+          <img
+            src="https://images.unsplash.com/photo-1700475477254-5986ff2f1dc3?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+            class="w-100 rounded" alt="..." loading="lazy" />
+
+          <img
+            src="https://images.unsplash.com/photo-1682686581362-796145f0e123?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxlZGl0b3JpYWwtZmVlZHwxMXx8fGVufDB8fHx8fA%3D%3D"
+            class="w-100 rounded" alt="..." loading="lazy" />
+          <img
+            src="https://images.unsplash.com/photo-1700510558182-5dce0b752e6f?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw4fHx8ZW58MHx8fHx8"
+            class="w-100 rounded" alt="..." loading="lazy" />
+          <img
+            src="https://plus.unsplash.com/premium_photo-1700319259405-f080192b3e73?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxN3x8fGVufDB8fHx8fA%3D%3D"
+            class="w-100 rounded" alt="..." loading="lazy" />
+          <img
+            src="https://plus.unsplash.com/premium_photo-1700984292442-87b80caca924?q=80&w=2072&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+            class="w-100 rounded" alt="..." loading="lazy" />
+          <img
+            src="https://images.unsplash.com/photo-1700769025506-6c3dcb9ec9b7?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxMDR8fHxlbnwwfHx8fHw%3D"
+            class="w-100 rounded" alt="" loading="lazy" />
+          <img
+            src="https://images.unsplash.com/photo-1700880326547-3558d336f0c9?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw4M3x8fGVufDB8fHx8fA%3D%3D"
+            alt="" class="w-100 rounded" loading="lazy" />
+
+        </div>
+      </div>
+      <div class="tab-pane fade" id="ex3-tabs-2" role="tabpanel" aria-labelledby="ex3-tab-2">
+        <div class="columns">
+          <img
+            src="https://images.unsplash.com/photo-1701079169931-efac6c6847ce?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwyfHx8ZW58MHx8fHx8"
+            alt="" class="w-100 rounded" loading="lazy" />
+          <img
+            src="https://images.unsplash.com/photo-1699973000822-26b36df91f4f?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxMzd8fHxlbnwwfHx8fHw%3D"
+            alt="" class="w-100 rounded" loading="lazy" />
+          <img
+            src="https://images.unsplash.com/photo-1695653420018-6fcd7709a268?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxlZGl0b3JpYWwtZmVlZHwyMTV8fHxlbnwwfHx8fHw%3D"
+            alt="" class="w-100 rounded" loading="lazy" />
+          <img
+            src="https://images.unsplash.com/photo-1695938887083-31f814779e54?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw5Mnx8fGVufDB8fHx8fA%3D%3D"
+            alt="" class="w-100 rounded" loading="lazy" />
+
+          <img
+            src="https://images.unsplash.com/photo-1701219557502-8cda1863458e?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxM3x8fGVufDB8fHx8fA%3D%3D"
+            alt="" class="w-100 rounded" loading="lazy" />
+          <img
+            src="https://images.unsplash.com/photo-1700802671784-abeb4601a378?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxNTh8fHxlbnwwfHx8fHw%3D"
+            alt="" class="w-100 rounded" loading="lazy" />
+          <img
+            src="https://images.unsplash.com/photo-1700675654221-d9c62be751c8?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwzMTN8fHxlbnwwfHx8fHw%3D"
+            alt="" class="w-100 rounded" loading="lazy" />
+        </div>
+      </div>
+
+      <div class="tab-pane fade" id="ex3-tabs-3" role="tabpanel" aria-labelledby="ex3-tab-3">
+        <div class="columns">
+          <img
+            src="https://images.unsplash.com/photo-1519345182560-3f2917c472ef?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzV8fHBvcnRyYWl0fGVufDB8fDB8fHww"
+            alt="" class="w-100 rounded" loading="lazy" />
+          <img
+            src="https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mzl8fHBvcnRyYWl0fGVufDB8fDB8fHww"
+            alt="" class="w-100 rounded" loading="lazy" />
+          <img
+            src="https://images.unsplash.com/photo-1614204424926-196a80bf0be8?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NDB8fHBvcnRyYWl0fGVufDB8fDB8fHww"
+            alt="" class="w-100 rounded" loading="lazy" />
+          <img
+            src="https://images.unsplash.com/photo-1589386417686-0d34b5903d23?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTE0fHxwb3J0cmFpdHxlbnwwfHwwfHx8MA%3D%3D"
+            alt="" class="w-100 rounded" loading="lazy" />
+          <img
+            src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cG9ydHJhaXR8ZW58MHx8MHx8fDA%3D"
+            alt="" class="w-100 rounded" loading="lazy" />
+          <img
+            src="https://images.unsplash.com/photo-1502323703385-c3ea9ace787d?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTI2fHxwb3J0cmFpdHxlbnwwfHwwfHx8MA%3D%3D"
+            alt="" class="w-100 rounded" loading="lazy" />
+          <img
+            src="https://images.unsplash.com/photo-1526510747491-58f928ec870f?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTMyfHxwb3J0cmFpdHxlbnwwfHwwfHx8MA%3D%3D"
+            alt="" class="w-100 rounded" loading="lazy" />
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <footer class="text-center text-lg-start text-white" style="background-color: #111">
+
+    <section class="d-flex justify-content-between p-4" style="background-color: #212529">
+
+      <div class="me-5">
+        <span>Contacta conmigo a través de redes sociales:</span>
+      </div>
+
+      <div>
+        <a href="#" class="text-white me-4">
+          <i class="fab fa-facebook-f"></i>
+        </a>
+        <a href="#" class="text-white me-4">
+          <i class="fab fa-twitter"></i>
+        </a>
+        <a href="#" class="text-white me-4">
+          <i class="fab fa-instagram"></i>
+        </a>
+        <a href="#" class="text-white me-4">
+          <i class="fab fa-linkedin"></i>
+        </a>
+      </div>
+    </section>
+
+    <section class="">
+      <div class="container text-center text-md-start mt-5">
+        <div class="row mt-3">
+          <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+            <h6 class="text-uppercase fw-bold fs-1">JULIA JIMÉNEZ FOTOGRAFÍA</h6>
+            <hr class="mb-4 mt-0 d-inline-block mx-auto" style="width: 60px; background-color: #212529; height: 2px" />
+            <p class="fs-5">
+              "Explorando la belleza a través de la lente, cada imagen capturada es un suspiro de la naturaleza. Deja
+              que mis paisajes te transporten a un mundo visualmente cautivador y emotivo."
+            </p>
+          </div>
+          <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+            <!-- Links -->
+            <br><br><h6 class="text-uppercase fw-bold fs-1">Contacto</h6>
+            <hr
+                class="mb-4 mt-0 d-inline-block mx-auto"
+                style="width: 60px; background-color: #212529; height: 2px"
+                />
+            <p><i class="fas fa-home mr-3"></i> Almería, Almería, España</p>
+            <p><i class="fas fa-envelope mr-3"></i> juliajimenezfotografia@gmail.com</p>
+            <p><i class="fas fa-phone mr-3"></i> + 34 612 34 56 78</p>
+            <p><i class="fas fa-print mr-3"></i> + 34 950 12 34 56</p>
+          </div>
+          <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+            <img
+              src="https://images.unsplash.com/photo-1495745966610-2a67f2297e5e?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTh8fGNhbWVyYXxlbnwwfHwwfHx8MA%3D%3D"
+              class="rounded" alt="" style="width: 150%;">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="text-center p-3" style="background-color: #212529">
+      © 2023 Copyright:
+      <a class="text-white" href="./index.html">juliajimenezfotografia.com</a>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+    integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
+</body>
+
 </html>
