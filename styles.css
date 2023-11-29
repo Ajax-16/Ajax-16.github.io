@@ -3,22 +3,52 @@
   height: 100px;
 }
 
-#header {
+nav {
     animation: backdrop-blur both ease-in-out;
     animation-timeline: scroll(root);
     animation-range: 10px 15px;
 }
 
-#header > span {
+nav span {
+  font-size: 2.5rem;
   animation: font both ease-in-out;
   animation-timeline: scroll(root);
   animation-range: 10px 200px;
 }
 
-#header > img {
+nav img {
     animation: scale both ease-in-out;
     animation-timeline: scroll(root);
     animation-range: 10px 200px;
+}
+
+.bloque {
+    opacity: 0;
+    scale: .5;
+    animation: aparece both ease-in-out;
+    animation-timeline: view();
+    animation-range: 10% 40%;
+}
+
+.columns{
+  columns: 3 auto;
+}
+
+.columns img {
+  margin: 10px;
+  opacity: 0;
+  scale: .5;
+  animation: aparece both ease-in-out;
+  animation-timeline: view();
+  animation-range: 5% 30%;
+}
+
+@keyframes aparece {
+  to {
+    opacity: 1;
+    transform: translateY(-20px);
+    scale: 1;
+  }
 }
 
 @keyframes backdrop-blur {
@@ -29,7 +59,13 @@
 
 @keyframes font {
   to {
-    font-size: 2.5rem;
+    font-size: 2rem;
+  }
+}
+
+@keyframes font-links {
+  to {
+    font-size: 1.5rem;
   }
 }
 
