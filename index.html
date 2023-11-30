@@ -35,16 +35,36 @@
   </nav>
 
   <div class="">
-    <div id="carouselExample" class="carousel slide">
+    <div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
       <div class="carousel-inner">
         <div class="carousel-item active">
           <img src="images/inicio1.jpg" class="d-block w-100" alt="..." />
+          <div class="carousel-caption d-none d-md-block">
+            <h3 class="fw-bold">Bosque de Osaka</h3>
+            <p class="fs-4">
+              "Entre susurros acuáticos, la danza mística de la naturaleza revela su encanto atemporal."</p>
+          </div>
         </div>
         <div class="carousel-item">
           <img src="images/inicio2.jpg" class="d-block w-100" alt="..." />
+          <div class="carousel-caption d-none d-md-block">
+            <h3 class="fw-bold">Cascadas de Albacete</h3>
+            <p class="fs-4">
+              "En el abrazo eterno de la cascada, descubre la sinfonía serena de la naturaleza."</p>
+          </div>
         </div>
         <div class="carousel-item">
           <img src="images/inicio3.jpg" class="d-block w-100" alt="..." />
+          <div class="carousel-caption d-none d-md-block">
+            <h3 class="fw-bold">Cabo de Finisterre</h3>
+            <p class="fs-4">
+              "En el horizonte del Cabo Finisterre, donde se encuentran cielo y mar, la magia perdura."</p>
+          </div>
         </div>
       </div>
       <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
