@@ -1,0 +1,20 @@
+<empleados>
+    <element>
+        <departamento>Informática</departamento>
+        <edad>28</edad>
+        <nombre>Paco Pérez</nombre>
+        <sueldo>false</sueldo>
+    </element>
+    <element>
+        <departamento>Recursos Humanos</departamento>
+        <edad>33</edad>
+        <nombre>Jesús García</nombre>
+        <sueldo>true</sueldo>
+    </element>
+    <element>
+        <departamento>CEO</departamento>
+        <edad>32</edad>
+        <nombre>María López</nombre>
+        <sueldo>true</sueldo>
+    </element>
+</empleados>
